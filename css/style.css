@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: #E5E5E5 !important; 
+}
+.wallpaper {
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body[data-aos-duration='225'] [data-aos],
+[data-aos][data-aos][data-aos-duration='225']{
+  transition-duration: 225ms;
+}
+.wallpaper-again .container {
+    /*background-image: url(../images/17372\ [Converted]\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+}
+.hero-main-text {
+    display: flex;
+    letter-spacing: -0.035em;
+    color: #FF7E00;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 94.8%;
+}
+.hero-sub-text {
+    display: flex;
+    flex-direction: column;
+    color: #2F2F2F;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 94.8%;
+}
+.inner-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 138.8%;
+    color: #909090; 
+}
+
+.play-button {
+    background: #909090;
+    color: #909090;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 94.8%;
+    color: #2F2F2F;
+}
+
+        
